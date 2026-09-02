@@ -101,7 +101,7 @@ data:
         }
 
         location /api/payment/ {
-          proxy_pass http://payment:8080/;
+          proxy_pass http://payments:8080/;
         }
 
     }
