@@ -104,6 +104,10 @@ data:
           proxy_pass http://payments:8080/;
         }
 
+          location /api/payments/ {
+          proxy_pass http://dispatch:8080/;
+        }
+
     }
 
     } 
