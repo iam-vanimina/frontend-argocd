@@ -100,7 +100,7 @@ data:
           proxy_pass http://shipping:8080/;
         }
 
-        location /api/payment/ {
+        location /api/payments/ {
           proxy_pass http://payments:8080/;
         }
 
